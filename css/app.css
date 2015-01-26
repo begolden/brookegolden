@@ -31,15 +31,16 @@ body {
   font-family: Helvetica, sans-serif;
   font-size: 1em;
   line-height: 1.6em;
-  letter-spacing: 0.4em;
+  letter-spacing: 0.1em;
+}
+
+h1 {
+
 }
 
 h3 {
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 0.4em;
-  color: #aaaaaa;
-  padding-bottom: 1.0em;
+  font-family: "sorts-mill-goudy", serif;
+  font-style: italic;
 }
 
 a {
