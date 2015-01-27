@@ -8,6 +8,8 @@
  *
  * COLORS:
  * Off-black: #414141
+ * Light grey: #717171
+ * Dark teal: #22595d
  * Teal: #318086
  * Aqua: #98e3df
  * Red: #eb1152
@@ -32,13 +34,13 @@ body {
   background: url('../img/lightpaperfibers.png');
   color: #414141;
   font-family: Helvetica, sans-serif;
-  font-size: 1em;
-  line-height: 1.6em;
 }
 
 h1 {
   font-family: "bebas-neue";
-  font-size: 1.2em;
+  font-size: 60px;
+  margin-bottom: 0;
+  line-height: 1.0em;
 }
 
 h3 {
@@ -48,7 +50,7 @@ h3 {
 
 a {
   text-decoration: none;
-  color: #717171;
+  color: #22595d;
 }
 
 a:visited {
@@ -57,6 +59,14 @@ a:visited {
 
 a:hover {
   color: #eb1152;
+}
+
+button {
+  background-color: #318086;
+}
+
+button:hover {
+  background-color: #22595d;
 }
 
 /* -------------------------------------------------
@@ -102,6 +112,7 @@ header {
     overflow:hidden;
     margin:0; padding:0;
     list-style:none;
+    margin-top: 20px;
 }
 
 .soc li {
