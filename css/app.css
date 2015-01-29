@@ -21,6 +21,7 @@
 -----------------------------------------------------
 :: Shared Styles
 :: Header
+:: Resume
 :: Footer
 :: Social Icons
 -------------------------------------------------- */
@@ -33,7 +34,8 @@ html,
 body {
   background: url('../img/lightpaperfibers.png');
   color: #414141;
-  font-family: Helvetica, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
 }
 
 h1 {
@@ -69,12 +71,37 @@ button:hover {
   background-color: #22595d;
 }
 
+.highlight {
+  color: #eb1152;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
 /* -------------------------------------------------
    Header
 ------------------------------------------------- */
 
 header {
   margin-top: 20px;
+}
+
+/* -------------------------------------------------
+   Resume
+------------------------------------------------- */
+
+.resume h4 {
+ color: #318086;
+}
+
+.resume h5 {
+  margin-bottom: 0;
+}
+
+.employer {
+  font-family: "sorts-mill-goudy", serif;
+  font-style: italic;
 }
 
 /* -------------------------------------------------
