@@ -13,6 +13,7 @@
  * Teal: #318086
  * Aqua: #98e3df
  * Red: #eb1152
+ * Tan: #bda895
  *
  ================================================== */
  
@@ -21,7 +22,9 @@
 -----------------------------------------------------
 :: Shared Styles
 :: Header
+:: Links
 :: Resume
+:: Contact
 :: Footer
 :: Social Icons
 -------------------------------------------------- */
@@ -36,6 +39,23 @@ body {
   color: #414141;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-weight: 300;
+}
+
+.wrapper {
+  background-color: rgba(255,255,255,0.5);
+}
+
+.row {
+  padding-top: 4.0rem;
+  padding-bottom: 4.0rem;
+  padding-right: 2.0rem;
+  padding-left: 2.0rem;
+}
+
+.column,
+.columns {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 h1 {
@@ -84,24 +104,67 @@ button:hover {
 ------------------------------------------------- */
 
 header {
-  margin-top: 20px;
+}
+
+/* -------------------------------------------------
+   Links
+------------------------------------------------- */
+
+#links {
+  background-color: #98e3df;
+}
+
+#links img {
+
+}
+
+a.twofishcreative {
+ width: 300px;
+ height: 300px;
+ background-image: url('../img/2fish-logo-bw.png');
+ background-size: cover;
+ display: block;
+ border-radius: 50%;
+ -webkit-border-radius: 50%;
+ -moz-border-radius: 50%;
+ margin-bottom: 10px;
+}
+
+a.twofishcreative:hover {
+   background-image: url('../img/2fish-logo.png');
+}
+
+/* -------------------------------------------------
+   About
+------------------------------------------------- */
+
+#about {
+  background-color: #bda895;
 }
 
 /* -------------------------------------------------
    Resume
 ------------------------------------------------- */
 
-.resume h4 {
+#resume h4 {
  color: #318086;
 }
 
-.resume h5 {
+#resume h5 {
   margin-bottom: 0;
 }
 
 .employer {
   font-family: "sorts-mill-goudy", serif;
   font-style: italic;
+}
+
+/* -------------------------------------------------
+   Contact
+------------------------------------------------- */
+
+#contact {
+  background-color: #318086;
 }
 
 /* -------------------------------------------------
@@ -139,7 +202,6 @@ header {
     overflow:hidden;
     margin:0; padding:0;
     list-style:none;
-    margin-top: 20px;
 }
 
 .soc li {
@@ -184,7 +246,7 @@ header {
     -moz-border-radius: 100px;
     border-radius: 100px;
     margin-right: 10px;
-    color: #f5f5f5;
+    color: #ffffff;
     background-color: #bda895;
 }
 
@@ -206,9 +268,12 @@ header {
 .soc-google:before {
     content:'c';
 }
-.soc-pinterest:before {
-    content:'d';
+.soc-instagram:before {
+    content:'x';
 }
 .soc-twitter:before {
     content:'a';
+}
+.soc-pinterest:before {
+    content:'d';
 }
